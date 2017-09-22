@@ -1,0 +1,15 @@
+{
+    "ptf": {
+        "folder": "C:\\Users\\works\\Documents\\langpack\\9PTF\\source\\74110100",
+        "subfolder": ["comdata", "data"]
+    },
+    "langpack": {
+        "folder": "C:\\Users\\works\\Documents\\langpack\\9PTF\\langpack\\CJK74\\VER741101_lang\\VER74110100_lang\\DB",
+        "subfolder": ["comdata", "data"]
+    },
+    "csvFiles": {
+        "folder": "C:\\Users\\works\\Documents\\langpack\\9PTF\\csv\\740109_csv"
+    },
+    "// encodeChkExt": ["sql", "dat"],
+    "tableList": ["cpny_litrinfo", "usrstring_mst", "kubun", "bunrui"]
+}

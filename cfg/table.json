@@ -1,0 +1,30 @@
+{
+    "cpny_litrinfo": {
+        "header": ["litr_id", "lang_cd", "disp_seq", "litr_cont", "subsys_cd"],
+        "tagsFilelist": ["cpny_litrinfo_ins.dat", "cpny_litrinfo_ins_6.dat", "cpny_litrinfo_upd.dat", "cpny_litrinfo_upd_6.dat"],
+        "langPackFile": ["cpny_litrinfo_[a-z_]+\\.dat"],
+        "primaryKey": ["litr_id", "lang_cd", "disp_seq"],
+        "inFolder": "comdata"
+    },
+    "usrstring_mst": {
+        "header": ["kmk_id", "lang_cd", "cdi_cd", "usr_chg_flg", "kmk_nm", "komlen", "datelen", "rkmk_nm", "rkomlen", "rdatelen", "abrv_nm", "abrvlen", "fstrtype", "typ", "len", "diccom", "jin_upd", "kyu_upd", "syu_upd", "upd_flg", "grp_assign_flg", "subsys_cd"],
+        "tagsFilelist": ["usrstring_mst_ins.dat", "usrstring_mst_ins_6.dat", "usrstring_mst_upd.dat", "usrstring_mst_upd_6.dat"],
+        "langPackFile": ["usrstring_mst_[a-z_]+\\.dat"],
+        "primaryKey": ["kmk_id", "lang_cd"],
+        "inFolder": "comdata"
+    },
+    "kubun": {
+        "header": ["kbn_cd", "locale", "lvl", "val", "txt", "dflt", "juni", "nai_fg", "flg01", "flg02", "flg03", "flg03", "flg04", "flg05", "conv_val", "status", "isobsolete", "subsys_cls"],
+        "tagsFilelist": ["kubun_ins.dat", "kubun_ins_6.dat", "kubun_upd.dat", "kubun_upd_6.dat"],
+        "langPackFile": ["kubun_[a-z_]+\\.dat"],
+        "primaryKey": ["kbn_cd", "locale", "lvl"],
+        "inFolder": "data"
+    },
+    "bunrui": {
+        "header": ["kmk_id", "lang_cd", "lvl", "val", "txt", "juni", "dflt", "status", "subsys_cls"],
+        "tagsFilelist": ["bunrui_ins.dat", "bunrui_ins_6.dat", "bunrui_upd.dat", "bunrui_upd_6.dat"],
+        "langPackFile": ["bunrui_[a-z_]+\\.dat"],
+        "primaryKey": ["kmk_id", "lang_cd", "val"],
+        "inFolder": "data"
+    }
+}

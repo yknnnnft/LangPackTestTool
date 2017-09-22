@@ -1,0 +1,18 @@
+{
+    "SQL_EXTENSION": ".sql",
+    "DEL_SQL_EXTENSION_REG": "_del_[a-z]+\\.sql$",
+    "DAT_EXTENSION": ".dat",
+    "TGT_DAT_REG": "_(ins|upd)_(cn|en)\\.dat",
+    "CRLF": "\r\n",
+    "CR": "\r",
+    "CR_REG": "\\r(?!\\n)",
+    "LF": "\n",
+    "LF_REG": ".*(?!\\r)\\n",
+    "FULL_WIDTH_REG": "[^A-Za-z0-9_;,.*/\\s\\(\\)\\=\\']",
+    "CHECKTYPE": {
+        "ENCODING_CHECK": "encoding_check",
+        "CRLF_CHECK": "crlf_check",
+        "HALF_WIDTH_CHECK": "half_width_check"
+    },
+    "NOTGT": "notgt"
+}
